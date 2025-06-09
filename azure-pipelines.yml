@@ -16,5 +16,5 @@ steps:
 - script: mvn clean install
   displayName: 'Run a multi-line script'
   
-- script: java -jar target/Mymavneapp-1.0-SNAPSHOT.jar
+- script: java -jar target/mavenpra-1.0-SNAPSHOT.jar
   displayName: 'Run jar file'
