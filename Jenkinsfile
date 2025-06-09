@@ -6,7 +6,7 @@ pipeline{
   stages{
     stage('checkout'){
       steps{
-        git barnch:'master',url:'https://github.com/Yoganand30/Mymavenprac.git'
+        git branch:'master',url:'https://github.com/Yoganand30/Mymavenprac.git'
       }
     }
   stage('Build'){
