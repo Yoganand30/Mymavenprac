@@ -11,7 +11,7 @@ pipeline{
     }
   stage('Build'){
     steps{
-      sh 'mvn complie package'
+      sh 'mvn compile package'
     }
   }
   stage('test'){
